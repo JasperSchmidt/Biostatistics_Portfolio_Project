@@ -15,8 +15,8 @@ I use *Introduction to Randomized Controlled Clinical Trials*, by John M.S. Matt
 
 ##### Currently working on:
 - data cleaning 
-- simple data investigation and testing to formulate hypotheses
-- dealing with confounding variables (smokers appear to be healthier in some metrics in uncontrolled model)
+- data investigation to formulate hypotheses
+- implement propensity score mathing to deal with confounding variables (smokers appear to be healthier in some metrics in uncontrolled model)
 - applying sample size theory 
 
 
