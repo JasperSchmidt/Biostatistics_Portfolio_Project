@@ -17,8 +17,7 @@ I use *Introduction to Randomized Controlled Clinical Trials*, by John M.S. Matt
 
 ##### Currently working on:
 - data cleaning 
-- data investigation to formulate hypotheses
-- implement propensity score mathing to deal with confounding variables (smokers appear to be healthier in some metrics in uncontrolled model)
+- implement propensity score matching to deal with confounding variables (smokers appear to be healthier in some metrics in uncontrolled model)
 - applying sample size theory 
 
 
@@ -26,9 +25,9 @@ I use *Introduction to Randomized Controlled Clinical Trials*, by John M.S. Matt
 
 ##### Future ToDos:
 - detail out statistical analysis plan for survival model (Kaplan-Meier); use "linked mortaliy dataset"
-- ANCOVA
+- ANOVA? 
 - Stratification 
-- dealing non-normal distribution
+- dealing with potentially non-normal distribution
 
 
 
