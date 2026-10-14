@@ -1,9 +1,11 @@
-Aim of the repo is to review statistics and R knowledge by applying them to public domain datasets.
+# Portfolio Project Biostatistics
+
+Aim of the repo is to review statistics and R skills by applying them to public domain datasets.
 I am using the NHANES dataset to compare health metrics for smokers and non-smokers. \
 The didactic idea is not to produce original results, but rather choose questions to which the answers are known. 
 That makes the search for methodological errors easier, but of course still has the risk of "false-positive" mistakes. 
 
-<br />
+---
 
 ##### Literature:
 I use *Introduction to Randomized Controlled Clinical Trials*, by John M.S. Matthews to guide me and 
@@ -11,7 +13,7 @@ I use *Introduction to Randomized Controlled Clinical Trials*, by John M.S. Matt
 (Will add additional methodology and literature later on) 
 
 
-<br />
+---
 
 ##### Currently working on:
 - data cleaning 
@@ -20,7 +22,7 @@ I use *Introduction to Randomized Controlled Clinical Trials*, by John M.S. Matt
 - applying sample size theory 
 
 
-<br />
+---
 
 ##### Future ToDos:
 - detail out statistical analysis plan for survival model (Kaplan-Meier); use "linked mortaliy dataset"
