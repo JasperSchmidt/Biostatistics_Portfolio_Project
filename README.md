@@ -1,6 +1,6 @@
 # Portfolio Project Biostatistics
 
-## Objective
+
 Aim of the repo is to review statistics and R skills by applying them to public domain datasets.
 
 The idea is not to produce original results, but rather choose questions to which the answers are known and show the correct application of statistical analyses. 
@@ -8,9 +8,6 @@ That makes refining the analysis in some sense easier, but of course poses the r
 
 As a first "dipping of toes" I investigated the effect of smoking on other health metrics like blood pressure. 
 
----
-
-## Data Set:
 I use the NHANES dataset as it is readily available and contains real-life data that is used by researchers. 
 
 More info about the data set can be found here: https://cran.r-project.org/web/packages/nhanesA/vignettes/Introducing_nhanesA.html
@@ -23,7 +20,7 @@ More info about the data set can be found here: https://cran.r-project.org/web/p
 3. definition of method to control for confounding
 3. selection of confounding variables
 4. baseline (i.e. unadjusted) comparison of smoker and non-smoker group
-5. adjusted comparison of the two groups (regressions / ANCOVA?, Stratification?)
+5. adjusted comparison of the two groups (regressions, Stratification?)
 6. model diagnosis
 7. sensitivity analysis 
 8. interpretation
@@ -53,18 +50,29 @@ At the very least, to stay aware of any possible biases introduced in the cleani
 Importing the dataset is conveniently done with the "nhanesA" library that also provides useful functions to explore the available data 
 and download subsets of the dataset.
 
+The dataset consists of five different surveys (DEMOGRAPHICS, DIETARY, EXAMINATION, LABORATORY, QUESTIONNAIRE) and 12 two-year cohorts that always start in uneven years.
+Using `View(nhanesTables("EXAM", 2005))` we can get an overview of the available tables for each survey in any particular year. 
 
+In the "Questionnaire" (abbreviated as "Q") survey we find three tables for "Cigarette Use", "Recent Tobacco Use" and "Household Smokers".
+The first table holds data for about 38 questions (depending on the cohort) that the participants were asked, including on the number of cigarettes smoked, when they quit smoking or which brand they are/were smoking. 
+
+Using the "Examination" (abbr. "EXAM") we can obtain data on blood pressure, body measures or oral health. 
+
+Age and gender of the participants can be obtained in the "Demographics" ("DEMO") survey. 
+
+
+
+
+TODO: Check if linked mortality data is useful for selected cohort! 
 
 
 ---
 
 ## Currently working on:
-- data cleaning -> introduction of bias during cleaning? 
+- data cleaning (-> introduction of bias during cleaning?)
 - regression model
 - propensity score
 - stratification
-
-
 
 ---
 
