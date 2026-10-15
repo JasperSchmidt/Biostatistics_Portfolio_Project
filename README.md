@@ -8,14 +8,17 @@ That makes refining the analysis in some sense easier, but of course poses the r
 
 As a first "dipping of toes" I investigated the effect of smoking on other health metrics like blood pressure. 
 
+---
+
 ## Data Set:
 I use the NHANES dataset as it is readily available and contains real-life data that is used by researchers. 
 
 More info about the data set can be found here: https://cran.r-project.org/web/packages/nhanesA/vignettes/Introducing_nhanesA.html
 
+---
 
 ## Analysis steps
-1. cleaning data, overview of data
+1. [cleaning data, overview of data](#cleaning-and-overview-of-the-data)
 2. definition variables of interest (one or two health metrics)
 3. definition of method to control for confounding
 3. selection of confounding variables
@@ -24,7 +27,8 @@ More info about the data set can be found here: https://cran.r-project.org/web/p
 6. model diagnosis
 7. sensitivity analysis 
 8. interpretation
- 
+
+---
 
 ## Statistical Considerations: 
 Investigating the effect of smoking on other health metrics comes with numerous issues, especially in an obeerservation study. 
@@ -39,6 +43,18 @@ Comparing the two groups (i.e. without survival analysis that I plan to do later
 ## Literature:
 I use *Introduction to Randomized Controlled Clinical Trials*, by John M.S. Matthews to guide me and 
 *All of Statistics - A Concise Course in Statistical Inference* by Larry Wasserman as a reference book for the underlying mathematics. 
+
+---
+
+## Cleaning and Overview of the Data
+Although the focus will be on the statistical investigation I will briefly outline the steps to import and clean the data. 
+At the very least, to stay aware of any possible biases introduced in the cleaning process.
+
+Importing the dataset is conveniently done with the "nhanesA" library that also provides useful functions to explore the available data 
+and download subsets of the dataset.
+
+
+
 
 ---
 
